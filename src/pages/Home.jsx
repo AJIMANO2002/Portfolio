@@ -33,7 +33,6 @@ function Home() {
           </button>
         </div>
 
-        {/* Right Side - Image with transparent gradient border */}
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[550px] lg:h-[600px] rounded-full p-2  shadow-2xl">
             <img

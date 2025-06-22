@@ -1,4 +1,4 @@
-import aji22 from "../assets/ajithkumar.png"; // Make sure the path is correct
+import aji22 from "../assets/ajithkumar.png"; 
 
 function About() {
   return (
@@ -7,7 +7,6 @@ function About() {
       className="w-full min-h-screen text-white py-34 px-6 bg-cover bg-center"
       style={{ backgroundImage: `url(${aji22})` }}
     >
-      {/* Dark Overlay */}
 
       <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 text-gray-300">
