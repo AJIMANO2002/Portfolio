@@ -6,7 +6,6 @@ import Game from '../assets/game.png';
 import CRED from '../assets/cred.png';
 
 
-
 function Portfolio() {
     return (
         <div className="w-full min-h-screen bg-black text-white px-6 py-12" id="portfolio">
