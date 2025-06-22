@@ -3,7 +3,7 @@ import movie from '../assets/Movie.png';
 import addtocart from '../assets/Addtocart.png';
 import calculator from '../assets/calcu.png';
 import game from '../assets/Game.png';
-import cred from '../assets/CRED.png';
+import cred from '../assets/cred.png';
 
 
 function Portfolio() {
