@@ -1,9 +1,9 @@
-import auction from '../assets/auction.png';
-import movie from '../assets/movie.png';
-import addtocart from '../assets/addtocart.png';
+import auction from '../assets/Auction.png';
+import movie from '../assets/Movie.png';
+import addtocart from '../assets/Addtocart.png';
 import calculator from '../assets/calcu.png';
-import game from '../assets/game.png';
-import cred from '../assets/cred.png';
+import game from '../assets/Game.png';
+import cred from '../assets/CRED.png';
 
 
 function Portfolio() {
