@@ -1,9 +1,9 @@
-import Auction from '../assets/auction.png';
-import Movie from '../assets/movie.png';
-import Addtocart from '../assets/addtocart.png';
-import Calculator from '../assets/calcu.png';
-import Game from '../assets/game.png';
-import CRED from '../assets/cred.png';
+import auction from '../assets/auction.png';
+import movie from '../assets/movie.png';
+import addtocart from '../assets/addtocart.png';
+import calculator from '../assets/calcu.png';
+import game from '../assets/game.png';
+import cred from '../assets/cred.png';
 
 
 function Portfolio() {
@@ -25,7 +25,7 @@ function Portfolio() {
                         </p>
                     </div>
                     <img
-                        src={Auction}
+                        src={auction}
                         alt="Auction Platform"
                         className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-0"
                     />
@@ -43,7 +43,7 @@ function Portfolio() {
                                 OMDB API to allow users to search for movies, view detailed information, and manage a list of favorite movies.                        </p>
                         </div>
                         <img
-                            src={Movie}
+                            src={movie}
                             alt="Project 2"
                             className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-0"
                         />
@@ -62,7 +62,7 @@ function Portfolio() {
                                 This project should allow the users to add, edit, and delete income and expense entries, providing an overview of their financial status.                     </p>
                         </div>
                         <img
-                            src={Calculator}
+                            src={calculator}
                             alt="Project 4"
                             className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-0"
                         />
@@ -81,7 +81,7 @@ function Portfolio() {
                                 Memory Game where players flip cards to find matching pairs.  </p>
                         </div>
                         <img
-                            src={Game}
+                            src={game}
                             alt="Project 5"
                             className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-0"
                         />
@@ -103,7 +103,7 @@ function Portfolio() {
                                 Here I develop a add to cart functionality and then i implement third party Api.                      </p>
                         </div>
                         <img
-                            src={Addtocart}
+                            src={addtocart}
                             alt="Project 3"
                             className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-0"
                         />
@@ -123,7 +123,7 @@ function Portfolio() {
                                 four fundamental functions for managing persistent data: Create, Read, Update, and Delete.</p>
                         </div>
                         <img
-                            src={CRED}
+                            src={cred}
                             alt="Project 5"
                             className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-0"
                         />
