@@ -4,9 +4,8 @@ const navLinks = [
   { path: "#home", label: "Home" },
   { path: "#about", label: "About" },
   { path: "#skills", label: "Skills" },
-  { path: "#service", label: "Service" },
   { path: "#portfolio", label: "Portfolio" },
-  { path: "#contact", label: "Contact" }
+  { path: "#contact", label: "Contact" },
 ];
 
 function Navbar() {
@@ -15,7 +14,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPos = window.scrollY + 100; 
+      const scrollPos = window.scrollY + 100;
       let current = "#home";
       navLinks.forEach(({ path }) => {
         const section = document.querySelector(path);
@@ -32,8 +31,8 @@ function Navbar() {
   const handleClick = () => setMenuOpen(false);
 
   return (
-    <nav className="bg-black shadow-md sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center text-white">
+    <nav className="bg-black shadow-md sticky top-0 z-[9999]">
+      <div className="max-w-6xl w-full mx-auto px-4 py-3 flex flex-wrap justify-between items-center text-white">
         <a href="#home" className="text-6xl font-bold text-red-800">
           𝔸𝕂
         </a>
@@ -62,7 +61,7 @@ function Navbar() {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-3 font-semibold text-white bg-black">
+        <div className="absolute top-full left-0 w-full px-4 pb-4 space-y-3 font-semibold text-white bg-black z-[9998] md:hidden">
           {navLinks.map(({ path, label }) => (
             <a
               key={path}
