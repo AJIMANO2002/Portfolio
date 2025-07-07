@@ -37,7 +37,7 @@ function About() {
           <div>I'm Ajith Kumar</div>
           <div className="text-red-800 font-black">Full Stack Developer</div>
           <a
-            href="/ajithcv.pdf"
+            href="/AjithResume.pdf"
             download
             className="w-36 py-3 text-xl rounded-xl bg-red-800 hover:bg-red-900 text-center block"
           >
