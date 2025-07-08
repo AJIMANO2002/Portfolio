@@ -1,10 +1,10 @@
 import { TypeAnimation } from 'react-type-animation';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Ajith from '../assets/aji21.png';
+import Ajith from '../assets/aji.jpg';
 
 function Home() {
   return (
-    <section id="home" className="bg-black py-16 sm:py-20 md:py-24">
+    <section id="home" className="bg-black py-16 sm:py-20 md:py-4">
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10 px-4 sm:px-8">
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
@@ -37,7 +37,7 @@ function Home() {
         </div>
 
         <div className="w-full md:w-1/2 flex justify-center">
-          <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-[400px] md:h-[450px] rounded-full p-2 shadow-2xl">
+          <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-[600px] md:h-[650px] rounded-full p-2 shadow-2xl">
             <img
               src={Ajith}
               alt="Ajith Kumar"
