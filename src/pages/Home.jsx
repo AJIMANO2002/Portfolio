@@ -1,13 +1,12 @@
 import { TypeAnimation } from 'react-type-animation';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Ajith from '../assets/aji.jpg';
+import Ajith from '../assets/ajithkumar.jpg';
 
 function Home() {
   return (
     <section id="home" className="bg-black py-16 sm:py-20 md:py-4">
-      <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10 px-4 sm:px-8">
-        {/* Text Section */}
-        <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
+      <div className="max-w-7xl mx-20 flex flex-col-reverse md:flex-row items-center justify-between gap-10 px-4 sm:px-8">
+        <div className="w-full md:w-1/2 text-center md:text-center space-y-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl text-white font-semibold">
             Hi, I'm Ajith
           </h1>
@@ -22,7 +21,7 @@ function Home() {
             wrapper="span"
             speed={50}
             repeat={Infinity}
-            className="text-3xl sm:text-4xl md:text-5xl text-gray-300 block"
+            className="text-3xl sm:text-4xl md:text-5xl text-red-800 block"
           />
 
           <p className="text-base sm:text-lg md:text-xl text-gray-300">
@@ -37,7 +36,7 @@ function Home() {
         </div>
 
         <div className="w-full md:w-1/2 flex justify-center">
-          <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-[600px] md:h-[650px] rounded-full p-2 shadow-2xl">
+          <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-[600px] md:h-[650px] rounded-full shadow-2xl">
             <img
               src={Ajith}
               alt="Ajith Kumar"

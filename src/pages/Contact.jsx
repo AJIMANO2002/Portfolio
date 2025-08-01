@@ -32,10 +32,7 @@ function Contact() {
         <div className="space-y-10 text-white">
           <p className="text-4xl sm:text-5xl font-bold">Let's connect.</p>
 
-          <p className="text-lg sm:text-xl">
-            <i className="bi bi-phone-vibrate-fill mr-2 text-red-700"></i>
-            +91 80566 24585
-          </p>
+         
           <p className="text-lg sm:text-xl">
             <i className="bi bi-envelope-paper-fill mr-2 text-red-700"></i>
             <a href="mailto:ajimano2002@gmail.com" className="hover:underline">

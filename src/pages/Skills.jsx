@@ -24,7 +24,7 @@ const SkillCard = ({ src, name }) => (
 
 const Skills = () => {
   return (
-    <div id="skills" className="bg-black py-20">
+    <div id="skills" className="bg-black ">
       <div className="container mx-auto">
         <button className="text-red-800 text-4xl font-bold mx-auto block">
           SKILLS
