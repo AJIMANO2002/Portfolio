@@ -20,7 +20,7 @@ function About() {
           <a
             href="/AjithResume.pdf"
             download
-            className="w-36 py-3 text-xl rounded-xl bg-red-800 hover:bg-red-900 text-center block"
+            className="px-10 py-3 border-2 border-white  hover:border-red-950 hover:text-red-800 transition rounded-xl text-center "
           >
             Download CV
           </a>
