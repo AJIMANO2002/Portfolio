@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Ajith from '../assets/ajithkumar.jpg';
+import Ajith from '../assets/aji21.png';
 
 function Home() {
   return (
